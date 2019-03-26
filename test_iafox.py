@@ -1,14 +1,13 @@
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
-from selenium.webdriver.firefox.firefox_binary import FirefoxBinary
+from selenium.webdriver.firefox.options import Options
 import os
 
 email = "suporte@iafox.com"
 senha = "4321"
-
-
-binary = FirefoxBinary('/usr/bin/firefox/firefox')
-browser = webdriver.Firefox(firefox_binary=binary)
+opts = Options()
+opts.binary = "/usr/bin/firefox"
+browser = webdriver.Firefox(firefox_options=opts)
 
 browser.maximize_window()
 browser.get('https://demo1.test.iafox.com/')
