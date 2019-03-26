@@ -5,7 +5,7 @@ import os
 email = "suporte@iafox.com"
 senha = "4321"
 
-browser = webdriver.Firefox()
+browser = webdriver.Firefox(executable_path='/usr/local/bin/geckodriver')
 browser.maximize_window()
 browser.get('https://demo1.test.iafox.com/')
 

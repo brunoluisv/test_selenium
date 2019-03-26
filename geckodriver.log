@@ -1,0 +1,13 @@
+1553608100374	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.n1dgVYHyx0zB"
+1553608100697	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1553608100697	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1553608100697	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1553608102010	Marionette	INFO	Listening on port 41737
+1553608102088	Marionette	WARN	TLS certificate errors will be ignored for this session
+
+(firefox:5543): GLib-GObject-WARNING **: /build/glib2.0-7ZsPUq/glib2.0-2.48.2/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7fc69fbcc4c0' of type 'MaiAtkType139'
+
+(firefox:5543): GLib-GObject-WARNING **: /build/glib2.0-7ZsPUq/glib2.0-2.48.2/./gobject/gsignal.c:3486: signal name 'selection_changed' is invalid for instance '0x7fc69fbccf10' of type 'MaiAtkType139'
+1553608111337	Marionette	INFO	Stopped listening on port 41737
+[Parent 5543, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-Gsoawr/firefox-66.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+[Parent 5543, Gecko_IOThread] WARNING: pipe error (81): Connection reset by peer: file /build/firefox-Gsoawr/firefox-66.0.1+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
