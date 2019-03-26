@@ -7,7 +7,7 @@ email = "suporte@iafox.com"
 senha = "4321"
 
 
-binary = FirefoxBinary('/usr/lib/firefox/firefox')
+binary = FirefoxBinary('/usr/bin/firefox/firefox')
 browser = webdriver.Firefox('firefox_binary=binary')
 browser.maximize_window()
 browser.get('https://demo1.test.iafox.com/')
