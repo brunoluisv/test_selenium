@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Executando Test') {
       steps {
-        sh "python test_iafox.py"
+        sh "python -m unittest discover --pattern=test_iafox.py.py"
       }
     }    
   }
