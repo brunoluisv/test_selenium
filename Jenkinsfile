@@ -3,10 +3,10 @@ pipeline {
   stages {
   	stage('Virtual Env'){
   		steps {
-  			sh "virtualenv -p /usr/bin/python3 iafoxtest"
+  			sh "virtualenv iafoxtest"
   			sh "cd iafoxtest"
-  			sh "pip3 install selenium"
-  			sh "pip3 install pytest"
+  			sh "pip install selenium"
+  			sh "pip install pytest"
   		}
   	}
     stage('Executando Test') {
