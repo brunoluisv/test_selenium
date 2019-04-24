@@ -4,7 +4,6 @@ pipeline {
   	stage('Virtual Env'){
   		steps {
   			sh "virtualenv iafoxtest"
-  			sh "source iafoxtest/bin/activate"
   			sh "pip install selenium"
   			sh "pip install pytest"
   		}
