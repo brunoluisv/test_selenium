@@ -10,6 +10,8 @@ pipeline {
   	}
     stage('Executando Test') {
       steps {
+      	sh "cp test_iafox.py iafoxtest"
+      	sh "cd iafoxtest"
         sh "pytest test_iafox.py"
       }
     }    
