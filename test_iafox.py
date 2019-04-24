@@ -1,14 +1,16 @@
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
-import os
 
+import os
+		
 email = "suporte@iafox.com"
 senha = "4321"
-browser = webdriver.Firefox()
 
+browser = webdriver.Firefox(executable_path=r'geckodriver')
+browser.implicitly_wait(30)
 browser.maximize_window()
 browser.get('https://demo1.test.iafox.com/')
-
+	
 if "Login no IAFOX" == browser.title:
 	print("TITULO VALIDO = " +browser.title)
 else:
@@ -38,15 +40,7 @@ elements = browser.find_elements_by_class_name('mblListItemLabel')
 for e in elements:
 	print(e.text)
 
-
-email_layout = browser.find_element_by_xpath("/html/body/div/ul/li[6]").text
-if email == email_layout:
-	print("LAYOUT OK!!")
-else:
-	print("LAYOUT NAO CONFERE!!")
-	browser.close()
-
-logout = browser.find_element_by_xpath("/html/body/div/ul/li[6]")
+logout = browser.find_element_by_xpath("//div[contains(text(), 'suporte@iafox.com')]")
 logout.click()
 logout = browser.find_element_by_xpath("/html/body/div/button")
 logout.click()
