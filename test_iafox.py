@@ -1,55 +1,40 @@
-from selenium import webdriver
-from selenium.webdriver.common.keys import Keys
+from selenium import webdriver as wd
+import time
 
-import os
+def test_setup():
+    global driver
+    driver = wd.Firefox()
+    driver.get('https://demo1.test.iafox.com')
+    time.sleep(5)
 
-email = "suporte@iafox.com"
-senha = "4321"
+def test_login():
+    if "Login no IAFOX" == driver.title:
+        print("TITULO VALIDO = " + driver.title)
+    else:
+        print("TITULO INVALIDO = " + driver.title)
+        driver.close()
 
-browser = webdriver.Firefox(executable_path="driver/geckodriver")
-browser.implicitly_wait(30)
-browser.maximize_window()
-browser.get('https://demo1.test.iafox.com/')
+    user = driver.find_element_by_name("j_username")
+    user.clear()
+    user.send_keys("suporte@iafox.com")
+    passwd = driver.find_element_by_name("j_password")
+    passwd.clear()
+    passwd.send_keys("4321")
+    login = driver.find_element_by_id("ctlForm")
+    login.click()
+    print("TESTE DE LOGIN OK")
 
-if "Login no IAFOX" == browser.title:
-	print("TITULO VALIDO = " +browser.title)
-else:
-	print("TITULO INVALIDO = "+browser.title)
-	browser.close()
+def test_logout():
+    logout = driver.find_element_by_xpath("//div[contains(text(), 'suporte@iafox.com')]")
+    logout.click()
+    logout = driver.find_element_by_xpath("/html/body/div/button")
+    logout.click()
+    return_link = driver.find_element_by_xpath('/html/body/a')
+    return_link.click()
+    print("TESTE DE LOGOUT OK")
 
-user = browser.find_element_by_name("j_username")
-user.clear()
-user.send_keys(email)
-passwd = browser.find_element_by_name("j_password")
-passwd.clear()
-passwd.send_keys(senha)
-login = browser.find_element_by_id("ctlForm")
-login.click()
-print("TESTE DE LOGIN OK")
+def test_teardown():
+    driver.close()
+    driver.quit()
+    print("TESTE COMPLETED")
 
-if "IAFOX" == browser.title:
-	print("TITULO VALIDO = "+browser.title)
-else:
-	print("TITULO INVALIDO = " +browser.title)
-	browser.close()
-
-browser.get_screenshot_as_file("test.png")
-#os.system('display test.png')
-
-elements = browser.find_elements_by_class_name('mblListItemLabel')
-for e in elements:
-	print(e.text)
-
-logout = browser.find_element_by_xpath("//div[contains(text(), 'suporte@iafox.com')]")
-logout.click()
-logout = browser.find_element_by_xpath("/html/body/div/button")
-logout.click()
-browser.get_screenshot_as_file("logout.png")
-#os.system('display logout.png')
-return_link = browser.find_element_by_xpath('/html/body/a')
-return_link.click()
-print("TESTE DE LOGOUT OK")
-browser.get_screenshot_as_file("login.png")
-#os.system('display login.png')
-
-browser.close()
