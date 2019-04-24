@@ -5,9 +5,9 @@ pipeline {
   		steps {
   			sh "virtualenv -p /usr/bin/python3.7 iafoxtest"
   			sh "cd iafoxtest"
-  			sh "pip3 install --upgrade pip"
-  			sh "pip3 install selenium"
-  			sh "pip3 install pytest"
+  			sh "pip install --upgrade pip"
+  			sh "pip install selenium"
+  			sh "pip install pytest"
   		}
   	}
     stage('Executando Test') {
