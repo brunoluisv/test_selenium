@@ -3,7 +3,7 @@ from selenium.webdriver.firefox.options import Options
 import time
 
 def test_setup():
-    time.sleep(300)
+    time.sleep(120)
     options = Options()
     options.headless = True
     global driver
@@ -36,9 +36,8 @@ def test_logout():
     logout = driver.find_element_by_xpath("/html/body/div/button")
     logout.click()
     time.sleep(1)
-    return_link = driver.find_element_by_link_text('Voltar')
-    return_link.click()
-    time.sleep(2)
+    driver.get('https://demo1.test.iafox.com')
+    driver.refresh()
     print("TESTE DE LOGOUT OK")
 
 def test_teardown():
