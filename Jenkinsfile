@@ -17,12 +17,12 @@ pipeline {
     stage('Bla'){
       steps{
         withPythonEnv('Python3'){
-          pip3 install selenium
-          pip3 install pytest
-          pip3 install nose
-          pip3 install allure-pytest
-          chmod 777 geckodriver.log
-          py.test --alluredir=allure-results Test.py 
+          sh 'pip3 install selenium'
+          sh 'pip3 install pytest'
+          sh 'pip3 install nose'
+          sh 'pip3 install allure-pytest'
+          sh 'chmod 777 geckodriver.log'
+          sh 'py.test --alluredir=allure-results Test.py' 
         }
       }
     }
