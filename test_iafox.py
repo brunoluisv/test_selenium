@@ -2,8 +2,7 @@ from selenium import webdriver as wd
 import time
 
 def test_setup():
-    global driver
-    driver = wd.Firefox()
+    global driver = wd.Firefox()
     driver.get('https://demo1.test.iafox.com')
     time.sleep(5)
 
