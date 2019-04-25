@@ -34,7 +34,7 @@ def test_logout():
     logout.click()
     logout = driver.find_element_by_xpath("/html/body/div/button")
     logout.click()
-    return_link = driver.find_element_by_xpath('//a[@href="/"]')
+    return_link = driver.find_element_by_link_text('Voltar')
     return_link.click()
     time.sleep(2)
     print("TESTE DE LOGOUT OK")
