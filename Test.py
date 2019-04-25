@@ -3,6 +3,7 @@ from selenium.webdriver.firefox.options import Options
 import time
 
 def test_setup():
+    time.sleep(300)
     options = Options()
     options.headless = True
     global driver
