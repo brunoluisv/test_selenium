@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Step #1'){
       steps{
-        withPythonEnv('Python3'){
+        withPythonEnv('/usr/bin/python3'){
           sh 'pip3 install selenium'
           sh 'pip3 install pytest'
           sh 'pip3 install nose'
