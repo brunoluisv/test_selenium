@@ -7,8 +7,9 @@ def test_setup():
     options.headless = True
     global driver
     driver = wd.Firefox(options=options)
+    #driver = wd.Firefox()
     driver.get('https://demo1.test.iafox.com')
-    time.sleep(5)
+    time.sleep(2)
 
 def test_login():
     if "Login no IAFOX" == driver.title:
@@ -28,15 +29,18 @@ def test_login():
     print("TESTE DE LOGIN OK")
 
 def test_logout():
+    time.sleep(2)
     logout = driver.find_element_by_xpath("//div[contains(text(), 'suporte@iafox.com')]")
     logout.click()
     logout = driver.find_element_by_xpath("/html/body/div/button")
     logout.click()
-    return_link = driver.find_element_by_xpath('/html/body/a')
+    return_link = driver.find_element_by_xpath('//a[@href="/"]')
     return_link.click()
+    time.sleep(2)
     print("TESTE DE LOGOUT OK")
 
 def test_teardown():
+    time.sleep(2)
     driver.close()
     driver.quit()
     print("TESTE COMPLETED")
