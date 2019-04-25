@@ -1,9 +1,12 @@
 from selenium import webdriver as wd
+from selenium.webdriver.firefox.options import Options
 import time
 
 def test_setup():
+    options = Options()
+    options.headless = True
     global driver
-    driver = wd.Firefox()
+    driver = wd.Firefox(options=options)
     driver.get('https://demo1.test.iafox.com')
     time.sleep(5)
 
@@ -37,4 +40,3 @@ def test_teardown():
     driver.close()
     driver.quit()
     print("TESTE COMPLETED")
-
