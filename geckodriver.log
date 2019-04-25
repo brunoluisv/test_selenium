@@ -207,3 +207,13 @@ IPDL protocol error: Handler returned error code!
 1556216124122	Marionette	INFO	Stopped listening on port 37207
 [Parent 17452, Gecko_IOThread] WARNING: pipe error (64): Connection reset by peer: file /build/firefox-i2nBcb/firefox-66.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
 [Parent 17452, Gecko_IOThread] WARNING: pipe error (72): Connection reset by peer: file /build/firefox-i2nBcb/firefox-66.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+1556220869465	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.nJuIpTAV6jPr"
+*** You are running in headless mode.
+1556220869758	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1556220869759	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1556220869759	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1556220870992	Marionette	INFO	Listening on port 44487
+1556220871078	Marionette	WARN	TLS certificate errors will be ignored for this session
+1556220888481	Marionette	INFO	Stopped listening on port 44487
+[Parent 31268, Gecko_IOThread] WARNING: pipe error (64): Connection reset by peer: file /build/firefox-i2nBcb/firefox-66.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+[Parent 31268, Gecko_IOThread] WARNING: pipe error (96): Connection reset by peer: file /build/firefox-i2nBcb/firefox-66.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
