@@ -2,12 +2,12 @@ from selenium import webdriver as wd
 import time
 
 def test_setup():
-    global driver
     driver = wd.Firefox()
     driver.get('https://demo1.test.iafox.com')
     time.sleep(5)
 
 def test_login():
+	driver = wd.Firefox()
     if "Login no IAFOX" == driver.title:
         print("TITULO VALIDO = " + driver.title)
     else:
@@ -25,6 +25,7 @@ def test_login():
     print("TESTE DE LOGIN OK")
 
 def test_logout():
+	driver = wd.Firefox()
     logout = driver.find_element_by_xpath("//div[contains(text(), 'suporte@iafox.com')]")
     logout.click()
     logout = driver.find_element_by_xpath("/html/body/div/button")
@@ -34,6 +35,7 @@ def test_logout():
     print("TESTE DE LOGOUT OK")
 
 def test_teardown():
+	driver = wd.Firefox()
     driver.close()
     driver.quit()
     print("TESTE COMPLETED")
