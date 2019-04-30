@@ -15,7 +15,7 @@ def test_setup():
 def test_login():
     if "Login no IAFOX" == driver.title:
         print("TITULO VALIDO = " + driver.title)
-        driver.save_screenshot('pics/tela_login.png')
+        driver.save_screenshot('allure-results/pics/tela_login.png')
     else:
         print("TITULO INVALIDO = " + driver.title)
         driver.close()
@@ -30,13 +30,13 @@ def test_login():
     login.click()
     print("TESTE DE LOGIN OK")
     time.sleep(1)
-    driver.save_screenshot('pics/tela_inicial.png')
+    driver.save_screenshot('allure-results/pics/tela_inicial.png')
 
 def test_cadastros():
     cadastro = driver.find_element_by_xpath("//div[contains(text(), 'Cadastros')]")
     cadastro.click()
     time.sleep(1)
-    driver.save_screenshot('pics/tela_cadastros.png')
+    driver.save_screenshot('allure-results/pics/tela_cadastros.png')
     
 def test_moldes():
     driver.get('https://demo1.test.iafox.com/')
@@ -47,7 +47,7 @@ def test_moldes():
     moldes.click()
     time.sleep(1)
     print("Moldes OK")
-    driver.save_screenshot('pics/tela_moldes.png')
+    driver.save_screenshot('allure-results/pics/tela_moldes.png')
 
 def test_produtos():
     driver.get('https://demo1.test.iafox.com/')
@@ -58,7 +58,7 @@ def test_produtos():
     produtos.click()
     print("Produtos OK")
     time.sleep(1)
-    driver.save_screenshot('pics/tela_produtos.png')
+    driver.save_screenshot('allure-results/pics/tela_produtos.png')
 
 def test_familias():
     driver.get('https://demo1.test.iafox.com/')
@@ -69,7 +69,7 @@ def test_familias():
     familias.click()
     print("Familias OK")
     time.sleep(1)
-    driver.save_screenshot('pics/tela_familias.png')
+    driver.save_screenshot('allure-results/pics/tela_familias.png')
 
 def test_etiquetas():
     driver.get('https://demo1.test.iafox.com/')
@@ -80,7 +80,7 @@ def test_etiquetas():
     etiquetas.click()
     print("Etiquetas OK")
     time.sleep(1)
-    driver.save_screenshot('pics/tela_etiquetas.png')
+    driver.save_screenshot('allure-results/pics/tela_etiquetas.png')
 
 def test_logout():
     driver.get('https://demo1.test.iafox.com/')

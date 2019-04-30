@@ -591,3 +591,232 @@ console.error: BroadcastService:
 1556649342687	Marionette	INFO	Stopped listening on port 38229
 [Parent 22787, Gecko_IOThread] WARNING: pipe error (78): Connection reset by peer: file /build/firefox-i2nBcb/firefox-66.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
 [Parent 22787, Gecko_IOThread] WARNING: pipe error (108): Connection reset by peer: file /build/firefox-i2nBcb/firefox-66.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+1556649801809	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.yNyenpFfGf1S"
+*** You are running in headless mode.
+1556649802107	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1556649802108	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1556649802108	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1556649803316	Marionette	INFO	Listening on port 33607
+1556649803415	Marionette	WARN	TLS certificate errors will be ignored for this session
+1556649823200	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.GpLZDz2BiLtt"
+*** You are running in headless mode.
+1556649823493	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1556649823494	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1556649823494	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1556649824750	Marionette	INFO	Listening on port 38975
+1556649824805	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:190:13
+
+1556649845384	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.40AyBE6L9uw1"
+*** You are running in headless mode.
+1556649845678	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1556649845679	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1556649845679	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:190:13
+
+1556649846981	Marionette	INFO	Listening on port 35649
+1556649846991	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:190:13
+
+1556649885680	Marionette	INFO	Stopped listening on port 35649
+[Parent 25792, Gecko_IOThread] WARNING: pipe error (64): Connection reset by peer: file /build/firefox-i2nBcb/firefox-66.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+[Parent 25792, Gecko_IOThread] WARNING: pipe error (96): Connection reset by peer: file /build/firefox-i2nBcb/firefox-66.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+1556650051369	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.qptzI6nAyh7B"
+*** You are running in headless mode.
+1556650051668	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1556650051668	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1556650051668	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1556650052925	Marionette	INFO	Listening on port 35647
+1556650052975	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:190:13
+
+1556650155088	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.DVS1jSWeEBHo"
+*** You are running in headless mode.
+1556650155385	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1556650155386	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1556650155386	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1556650156615	Marionette	INFO	Listening on port 37517
+1556650156694	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:190:13
+
+1556650231283	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.tRsZFj5KAt7u"
+*** You are running in headless mode.
+1556650231670	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1556650231670	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1556650231670	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1556650233022	Marionette	INFO	Listening on port 39031
+1556650233088	Marionette	WARN	TLS certificate errors will be ignored for this session
+1556650236072	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.s8h3txxYUtS9"
+*** You are running in headless mode.
+1556650236474	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1556650236474	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1556650236474	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1556650237783	Marionette	INFO	Listening on port 46857
+1556650237878	Marionette	WARN	TLS certificate errors will be ignored for this session
+1556650237975	Marionette	INFO	Stopped listening on port 46857
+JavaScript error: resource://activity-stream/lib/ActivityStreamPrefs.jsm, line 23: NS_ERROR_ILLEGAL_VALUE: Component returned failure code: 0x80070057 (NS_ERROR_ILLEGAL_VALUE) [nsIPrefBranch.removeObserver]
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+
+###!!! [Parent][DispatchAsyncMessage] Error: PBackgroundIDBFactory::Msg_PBackgroundIDBFactoryRequestConstructor Value error: message was deserialized, but contained an illegal value
+
+1556650238760	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.dCANPrAV0U9H"
+*** You are running in headless mode.
+1556650239216	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1556650239216	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1556650239216	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1556650240793	Marionette	INFO	Listening on port 36091
+1556650240891	Marionette	WARN	TLS certificate errors will be ignored for this session
+1556650241161	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.8K8lt06kkxB1"
+*** You are running in headless mode.
+1556650241762	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1556650241763	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1556650241763	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1556650243510	Marionette	INFO	Listening on port 34043
+console.error: PushService: 
+  stateChangeProcessEnqueue: Error transitioning state
+  QuotaExceededError
+JavaScript error: , line 0: QuotaExceededError: The current transaction exceeded its quota limitations.
+JavaScript error: , line 0: QuotaExceededError: The current transaction exceeded its quota limitations.
+JavaScript error: , line 0: QuotaExceededError: The current transaction exceeded its quota limitations.
+JavaScript error: , line 0: QuotaExceededError: The current transaction exceeded its quota limitations.
+1556650243607	Marionette	WARN	TLS certificate errors will be ignored for this session
+1556650243682	addons.xpi-utils	WARN	Failed to save XPI database: {"operation":"write","path":"/tmp/rust_mozprofile.8K8lt06kkxB1/extensions.json","unixErrno":28}
+console.error: (new Error("Error(s) encountered during statement execution: database or disk is full", "resource://gre/modules/Sqlite.jsm", 815))
+JavaScript error: resource://gre/modules/Sqlite.j1556650244790	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.rWQht1aJr6FY"
+*** You are running in headless mode.
+1556650244946	addons.manager	WARN	Failed to copy the application shipped blocklist to the profile: [Exception... "Component returned failure code: 0x8052000a (NS_ERROR_FILE_DISK_FULL) [nsIFile.copyTo]"  nsresult: "0x8052000a (NS_ERROR_FILE_DISK_FULL)"  location: "JS frame :: resource://gre/modules/AddonManager.jsm :: validateBlocklist :: line 573"  data: no] Stack trace: validateBlocklist()@resource://gre/modules/AddonManager.jsm:573
+startup()@resource://gre/modules/AddonManager.jsm:727
+startup()@resource://gre/modules/AddonManager.jsm:2775
+observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:66
+1556650245259	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1556650245259	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1556650245259	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1556650245343	addons.xpi-utils	WARN	Failed to save XPI database: {"operation":"write","path":"/tmp/rust_mozprofile.rWQht1aJr6FY/extensions.json","unixErrno":28}
+JavaScript error: resource://gre/modules/NewTabUtils.jsm, line 1269: TypeError: conn is undefined
+JavaScript error: resource://gre/modules/NewTabUtils.jsm, line 1269: TypeError: conn is undefined
+1556650246386	addons.xpi-utils	WARN	Failed to save XPI database: {"operation":"write","path":"/tmp/rust_mozprofile.rWQht1aJr6FY/extensions.json","unixErrno":28}
+1556650246436	Marionette	INFO	Listening on port 34183
+console.error: PushService: 
+  stateChangeProcessEnqueue: Error transitioning state
+  UnknownError
+JavaScript error: , line 0: UnknownError: The operation failed for reasons unrelated to the database itself and not covered by any other error code.
+JavaScript error: , line 0: UnknownError: The operation failed for reasons unrelated to the database itself and not covered by any other error code.
+JavaScript error: , line 0: UnknownError: The operation failed for reasons unrelated to the database itself and not covered by any other error code.
+JavaScript error: , line 0: UnknownError: The operation failed for reasons unrelated to the database itself and not covered by any other error code.
+1556650246499	Marionette	WARN	TLS certificate errors will be ignored for this session
+1556650246521	addons.xpi-utils	WARN	Failed to save XPI database: {"operation":"write","path":"/tmp/rust_mozprofile.rWQht1aJr6FY/extensions.json","unixErrno":28}
+console.error: (new Error("Error(s) encountered during statement execution: database or disk is full", "resource://gre/modules/Sqlite.jsm", 815))
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: database or disk is full
+JavaScript error: resource://gre/modules/PlacesUtils.jsm, line 1830: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsINavBookmarksService.tagsFolder]
+JavaScript error: resource://gre/modules/NewTabUtils.jsm, line 1269: TypeError: conn is undefined
+console.error: "Could not write session state file " (new Error("", "(unknown module)")) ""
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:190:13
+
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Sta1556650324132	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.5KAkEalsDm16"
+*** You are running in headless mode.
+1556650324227	addons.manager	WARN	Failed to copy the application shipped blocklist to the profile: [Exception... "Component returned failure code: 0x8052000a (NS_ERROR_FILE_DISK_FULL) [nsIFile.copyTo]"  nsresult: "0x8052000a (NS_ERROR_FILE_DISK_FULL)"  location: "JS frame :: resource://gre/modules/AddonManager.jsm :: validateBlocklist :: line 573"  data: no] Stack trace: validateBlocklist()@resource://gre/modules/AddonManager.jsm:573
+startup()@resource://gre/modules/AddonManager.jsm:727
+startup()@resource://gre/modules/AddonManager.jsm:2775
+observe()@jar:file:///usr/lib/firefox/omni.ja!/components/addonManager.js:66
+1556650324432	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1556650324433	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1556650324433	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1556650324500	addons.xpi-utils	WARN	Failed to save XPI database: {"operation":"write","path":"/tmp/rust_mozprofile.5KAkEalsDm16/extensions.json","unixErrno":28}
+JavaScript error: , line 0: QuotaExceededError: The current transaction exceeded its quota limitations.
+1556650325261	addons.xpi-utils	WARN	Failed to save XPI database: {"operation":"write","path":"/tmp/rust_mozprofile.5KAkEalsDm16/extensions.json","unixErrno":28}
+console.error: PushService: 
+  stateChangeProcessEnqueue: Error transitioning state
+  QuotaExceededError
+1556650325319	Marionette	INFO	Listening on port 39397
+1556650325343	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: , line 0: QuotaExceededError: The current transaction exceeded its quota limitations.
+JavaScript error: , line 0: QuotaExceededError: The current transaction exceeded its quota limitations.
+JavaScript error: , line 0: QuotaExceededError: The current transaction exceeded its quota limitations.
+1556650325435	addons.xpi-utils	WARN	Failed to save XPI database: {"operation":"write","path":"/tmp/rust_mozprofile.5KAkEalsDm16/extensions.json","unixErrno":28}
+console.error: (new Error("Error(s) encountered during statement execution: database or disk is full", "resource://gre/modules/Sqlite.jsm", 815))
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: database or disk is full
+JavaScript error: resource://gre/modules/PlacesUtils.jsm, line 1830: NS_ERROR_UNEXPECTED: Component returned failure code: 0x8000ffff (NS_ERROR_UNEXPECTED) [nsINavBookmarksService.tagsFolder]
+JavaScript error: resource://gre/modules/NewTabUtils.jsm, line 1269: TypeError: conn is undefined
+console.error: "Could not write session state file " (new Error("", "(unknown module)")) ""
+1556650335116	addons.xpi-utils	WARN	Failed to save XPI database: {"operation":"write","path":"/tmp/rust_mozprofile.GpLZDz2BiLtt/extensions.json","unixErrno":28}
+console.error: (new Error("Error(s) encountered during statement execution: database or disk is full", "resource://gre/modules/Sqlite.jsm", 815))
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: database or disk is full
+console.error: (new Error("Error(s) encountered during statement execution: database or disk is full", "resource://gre/modules/Sqlite.jsm", 815))
+JavaScript error: resource://gre/modules/Sqlite.jsm, line 815: Error: Error(s) encountered during statement execution: database or disk is full
+console.error: (new Error("Error(s) encountered during statement execution: database or disk is full", "resource://gre/modules/Sqlite.jsm", 815))
+JavaScript error: resource://gre/modules/Sq1556650566561	mozrunner::runner	INFO	Running command: "/usr/bin/firefox" "-marionette" "-headless" "-foreground" "-no-remote" "-profile" "/tmp/rust_mozprofile.uB5c0Fa0q1RY"
+*** You are running in headless mode.
+1556650566853	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1556650566853	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1556650566853	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+1556650568074	Marionette	INFO	Listening on port 34563
+1556650568166	Marionette	WARN	TLS certificate errors will be ignored for this session
+console.error: BroadcastService: 
+  receivedBroadcastMessage: handler for
+  remote-settings/monitor_changes
+  threw error:
+  Message: Error: Polling for changes failed: NetworkError when attempting to fetch resource..
+  Stack:
+    remoteSettingsFunction/remoteSettings.pollChanges@resource://services-settings/remote-settings.js:190:13
+
+1556650608987	Marionette	INFO	Stopped listening on port 34563
+[Parent 31152, Gecko_IOThread] WARNING: pipe error (64): Connection reset by peer: file /build/firefox-i2nBcb/firefox-66.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+[Parent 31152, Gecko_IOThread] WARNING: pipe error (58): Connection reset by peer: file /build/firefox-i2nBcb/firefox-66.0.3+build1/ipc/chromium/src/chrome/common/ipc_channel_posix.cc, line 357
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/nsPlacesExpiration.js, line 762: TypeError: this._db is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/nsPlacesExpiration.js, line 762: TypeError: this._db is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/nsPlacesExpiration.js, line 762: TypeError: this._db is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/nsPlacesExpiration.js, line 762: TypeError: this._db is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/nsPlacesExpiration.js, line 762: TypeError: this._db is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/nsPlacesExpiration.js, line 762: TypeError: this._db is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/nsPlacesExpiration.js, line 762: TypeError: this._db is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/nsPlacesExpiration.js, line 762: TypeError: this._db is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/nsPlacesExpiration.js, line 762: TypeError: this._db is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/nsPlacesExpiration.js, line 762: TypeError: this._db is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/nsPlacesExpiration.js, line 762: TypeError: this._db is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/nsPlacesExpiration.js, line 762: TypeError: this._db is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/nsPlacesExpiration.js, line 762: TypeError: this._db is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/nsPlacesExpiration.js, line 762: TypeError: this._db is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/nsPlacesExpiration.js, line 762: TypeError: this._db is undefined
