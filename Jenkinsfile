@@ -9,7 +9,7 @@ pipeline {
             jdk: '',
             properties: [],
             reportBuildPolicy: 'ALWAYS',
-            results: [[path: 'allure-results']]
+            results: [[path: 'allure-results']],[path: 'pics']]
           ])
         }
         withPythonEnv('/usr/bin/python3'){
