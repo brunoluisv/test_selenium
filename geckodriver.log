@@ -823,3 +823,6 @@ JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/nsPlacesExpira
 JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/nsPlacesExpiration.js, line 762: TypeError: this._db is undefined
 JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/nsPlacesExpiration.js, line 762: TypeError: this._db is undefined
 JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/nsPlacesExpiration.js, line 762: TypeError: this._db is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/nsPlacesExpiration.js, line 762: TypeError: this._db is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/nsPlacesExpiration.js, line 762: TypeError: this._db is undefined
+JavaScript error: jar:file:///usr/lib/firefox/omni.ja!/components/nsPlacesExpiration.js, line 762: TypeError: this._db is undefined
