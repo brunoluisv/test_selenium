@@ -18,7 +18,7 @@ pipeline {
           sh 'pip3 install nose'
           sh 'pip3 install allure-pytest'
           sh 'chmod 777 geckodriver.log'
-          sh 'py.test --alluredir=allure-results Test.py' 
+          sh 'py.test --alluredir=pics Test.py' 
         }
       }
     }
