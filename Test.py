@@ -4,11 +4,11 @@ import time
 
 def test_setup():
     #time.sleep(120)
-    #options = Options()
-    #options.headless = True
+    options = Options()
+    options.headless = True
     global driver
-    #driver = wd.Firefox(options=options)
-    driver = wd.Firefox()
+    driver = wd.Firefox(options=options)
+    #driver = wd.Firefox()
     driver.get('https://demo1.test.iafox.com')
     time.sleep(2)
 
