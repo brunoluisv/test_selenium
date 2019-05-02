@@ -1,6 +1,8 @@
+# -*- coding: utf-8 -*-
 from selenium import webdriver as wd
 from selenium.webdriver.firefox.options import Options
 import time
+import allure
 
 def test_setup():
     #time.sleep(120)
@@ -16,6 +18,7 @@ def test_login():
     if "Login no IAFOX" == driver.title:
         print("TITULO VALIDO = " + driver.title)
         driver.save_screenshot('pics/tela_login.png')
+        allure.attach.file('pics/tela_login.png', attachment_type=allure.attachment_type.PNG)
     else:
         print("TITULO INVALIDO = " + driver.title)
         driver.close()
@@ -31,12 +34,14 @@ def test_login():
     print("TESTE DE LOGIN OK")
     time.sleep(1)
     driver.save_screenshot('pics/tela_inicial.png')
+    allure.attach.file('pics/tela_inicial.png', attachment_type=allure.attachment_type.PNG)
 
 def test_cadastros():
     cadastro = driver.find_element_by_xpath("//div[contains(text(), 'Cadastros')]")
     cadastro.click()
     time.sleep(1)
     driver.save_screenshot('pics/tela_cadastros.png')
+    allure.attach.file('pics/tela_cadastros.png', attachment_type=allure.attachment_type.PNG)
     
 def test_moldes():
     driver.get('https://demo1.test.iafox.com/')
@@ -48,6 +53,7 @@ def test_moldes():
     time.sleep(1)
     print("Moldes OK")
     driver.save_screenshot('pics/tela_moldes.png')
+    allure.attach.file('pics/tela_moldes.png', attachment_type=allure.attachment_type.PNG)
 
 def test_produtos():
     driver.get('https://demo1.test.iafox.com/')
@@ -59,6 +65,7 @@ def test_produtos():
     print("Produtos OK")
     time.sleep(1)
     driver.save_screenshot('pics/tela_produtos.png')
+    allure.attach.file('pics/tela_produtos.png', attachment_type=allure.attachment_type.PNG)
 
 def test_familias():
     driver.get('https://demo1.test.iafox.com/')
@@ -70,6 +77,7 @@ def test_familias():
     print("Familias OK")
     time.sleep(1)
     driver.save_screenshot('pics/tela_familias.png')
+    allure.attach.file('pics/tela_familias.png', attachment_type=allure.attachment_type.PNG)
 
 def test_etiquetas():
     driver.get('https://demo1.test.iafox.com/')
@@ -81,6 +89,7 @@ def test_etiquetas():
     print("Etiquetas OK")
     time.sleep(1)
     driver.save_screenshot('pics/tela_etiquetas.png')
+    allure.attach.file('pics/tela_etiquetas.png', attachment_type=allure.attachment_type.PNG)
 
 def test_logout():
     driver.get('https://demo1.test.iafox.com/')
@@ -91,7 +100,6 @@ def test_logout():
     logout.click()
     time.sleep(1)
     driver.get('https://demo1.test.iafox.com')
-    driver.refresh()
     print("TESTE DE LOGOUT OK")
 
 def test_teardown():
