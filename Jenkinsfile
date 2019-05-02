@@ -9,7 +9,7 @@ pipeline {
             jdk: '',
             properties: [],
             reportBuildPolicy: 'ALWAYS',
-            results: [[path: 'allure-results']]
+            results: [[path: 'allure-new']]
           ])
         }
         withPythonEnv('/usr/bin/python3'){
@@ -18,7 +18,7 @@ pipeline {
           sh 'pip3 install nose'
           sh 'pip3 install allure-pytest'
           sh 'chmod 777 geckodriver.log'
-          sh 'py.test --alluredir=allure-results Test.py' 
+          sh 'py.test --alluredir=allure-new Test.py' 
         }
       }
     }
